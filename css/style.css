@@ -244,3 +244,132 @@ header{
     color: #B80D4B;
     transition: .5s;
 }
+
+/* FEATURE PART STYLES */
+
+.feature-container{
+    margin-top: 100px;
+    display: flex;
+}
+
+.feature-text{
+    margin-left: 96px;
+}
+
+.feature-title{
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-top: 23px;
+}
+
+.feature-details{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-top: 16px;
+}
+
+.join-btn{
+    border-radius: 41px;
+    background: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffff;
+    margin-top: 16px; 
+}
+
+.join-btn:hover{
+    background: #B80D4B;
+    transition: .5s;
+}
+
+/* FOOTER PART STYLES */
+
+footer{
+    background: #0A0826;
+    width: 100%;
+    height: 239px;
+    margin-top: 100px;
+}
+
+.footer-text{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-title{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.copyright-text{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffff;
+    margin-top: 3px;
+}
+
+.last-text{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffff;
+    margin-top: 3px;
+}
+
+.social-media{
+    display: flex;
+    color: #ffff;
+    margin-left: 545px;
+    margin-top: 17px;
+}
+
+.instagram{
+    background: #3A3A3A;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.dribbble{
+    background: #3A3A3A;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.twitter{
+    background: #3A3A3A;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.youtube{
+    background: #3A3A3A;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 16px;
+}
