@@ -49,3 +49,86 @@ header{
 
 /* BANNER PART STYLES */
 
+.banner-container{
+    display: flex;
+}
+
+.banner-left{
+    margin-top: 145px;
+}
+
+.banner-title{
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #3A3A3A;
+    width: 582px;
+    margin-bottom: 16px;
+}
+
+.banner-description{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+    width: 505px;
+    margin-bottom: 16px;
+}
+
+.primary-btn{
+    border-radius: 41px;
+    background: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.primary-btn:hover{
+    background: #B80D4B;
+    transition: .5s;
+}
+
+.banner-right{
+    display: flex;
+    margin-left: 133px;
+    margin-top: 50px;
+}
+
+.bg-camera{
+    position: absolute;
+    margin-top: 30px;
+}
+
+.bg-design{
+    position: relative;
+}
+
+.bg-camera:hover{
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+
+/* SPONSOR PART STYLES */
+
+
+.sponsor-container{
+    margin-top: 70px;
+}
+
+.sponsor-img{
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    padding:  40px 60px;
+
+}
+
+.img{
+    align-items: center;
+    margin-left: 50.42px;
+    gap: 60.42px;
+}
