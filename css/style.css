@@ -294,7 +294,6 @@ header{
 
 footer{
     background: #0A0826;
-    width: 100%;
     height: 239px;
     margin-top: 100px;
 }
@@ -330,9 +329,11 @@ footer{
 .social-media{
     display: flex;
     color: #ffff;
-    margin-left: 545px;
     margin-top: 17px;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .instagram{
     background: #3A3A3A;
